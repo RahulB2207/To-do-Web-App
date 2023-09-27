@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav">
+             <b>To-Do List</b>  
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="section1">
+            <div>
+                <input type="text" name="myinput" id="input" placeholder="Enter a task" >
+                <button id="add">Add</button>
+            </div>
+        </section>
+        <section class="section2">
+            <div>
+                <ul id="todo">
+                        <li class="list" ><span>Task1</span>
+                            <div>
+                                <button id="update" onclick="upitem1(this)"><img src="images/update.png" alt=""></button>
+                            <button id="delete" onclick="delitem(this)"><img src="images/delete.png" alt=""></button>
+                            </div>
+                        </li>
+                    
+                </ul>
+            </div>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>

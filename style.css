@@ -1,0 +1,107 @@
+body{
+    padding:0;
+    margin:0;
+    
+}
+.nav{
+    width:100px;
+    text-align:center;
+    padding:8px;
+    font-size: 20px;
+    color:white;
+}
+header nav{
+    border:2px solid #00acee;
+    width:100%;
+    height:10vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#00acee;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+}
+main input{
+    width:100vh;
+    height:5vh;
+}
+main #add{
+   padding:3px;
+   background-color: #00acee;
+   font-size: medium;
+   width:60px;
+   color:white;
+   border:2px solid #03b2f8;
+   box-shadow: 2px 2px 3px rgb(126, 126, 126);
+   border-radius: 10px;
+}
+#add:hover{
+    box-shadow: 2px 2px 3px rgb(94, 94, 94);
+    background-color: #01a1e0;
+    border:2px solid #01a1e0;
+}
+.section2 ul li{
+    list-style: none;
+    height:5vh; 
+    width:90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:10px;
+    margin-right: 18vh;
+   font-family: sans-serif;
+}
+.div{
+    margin-right:50px;
+}
+.section1 button img{
+    height:30px;
+    width:30px;
+}
+#input{
+    border:none;
+    border-bottom: 2px solid #00acee;
+}
+#input:hover{
+    border:none;
+    border-bottom: 2px solid #00acee;
+}
+#update img{
+    height:15px;
+    width:15px;
+}
+#update{
+    margin:10px;
+    background-color: rgb(219, 216, 4);
+    width:8vh;
+    border-radius:8px;
+    border:2px solid rgb(201, 205, 6);
+    box-shadow:2px 2px 3px rgb(121, 121, 121);
+    
+}
+#todo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#delete img{
+    height:15px;
+    width:15px;
+   
+}
+#delete{
+    background-color: #D10000;
+    width:8vh;
+    border-radius:8px;
+    border:2px solid #D10000;;
+    box-shadow:2px 2px 3px rgb(121, 121, 121);
+    margin-right: 5px;
+}
+
